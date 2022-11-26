@@ -3,7 +3,7 @@ import { Button } from 'shared/ui/Button';
 import { ThemeButton } from './Button';
 
 describe('Button', () => {
-    test('test render', () => {
+    test('Test render', () => {
         render(<Button>TEST</Button>);
         expect(screen.getByText('TEST')).toBeInTheDocument();
     });

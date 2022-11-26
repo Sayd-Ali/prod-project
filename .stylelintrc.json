@@ -3,6 +3,6 @@
   "rules": {
     "indentation": [4],
     "selector-class-pattern": null,
-    "no-extra-semicolons": false
+    "no-extra-semicolons": null
   }
 }

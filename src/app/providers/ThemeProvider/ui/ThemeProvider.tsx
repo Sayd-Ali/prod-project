@@ -6,7 +6,6 @@ const defaultTheme = localStorage.getItem(LOCAL_STORAGE_THEME_KEY) as Theme || T
 interface ThemeProviderProps {
     initialTheme?: Theme;
 }
-const add = 32000;
 
 const ThemeProvider: FC<ThemeProviderProps> = (props) => {
     const {

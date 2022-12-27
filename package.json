@@ -12,7 +12,7 @@
     "lint:ts:fix": "eslint \"**/*.{ts,tsx}\" --fix",
     "lint:scss": "npx stylelint \"**/*.scss\"",
     "lint:scss:fix": "npx stylelint \"**/*.scss\" --fix",
-    "test:unit": "jest --config ./config/jest/jest.config.ts",
+    "test:unit": "jest --config ./config/jest/jest.config.ts ",
     "test:ui": "npx loki test",
     "test:ui:ok": "npx loki approve",
     "test:ui:ci": "loki --requireReference --reactUri file:./storybook-static",
@@ -84,7 +84,7 @@
   },
   "dependencies": {
     "@reduxjs/toolkit": "^1.8.0",
-    "axios": "^1.2.1",
+    "axios": "^0.26.1",
     "file-loader": "^6.2.0",
     "i18next": "^21.6.11",
     "i18next-browser-languagedetector": "^6.1.3",

@@ -36,6 +36,13 @@
     }
   ],
   "profile": {
-    "name": "typicode"
+    "first": "Frank",
+    "lastname": "Lampard",
+    "age": 24,
+    "currency": "RUB",
+    "country": "Checheniya",
+    "city": "Grozny",
+    "username": "admin",
+    "avatar": "https://www.readfootball.com/sites/default/files/news-img/1249493-26980825-1600-900.jpg"
   }
 }
